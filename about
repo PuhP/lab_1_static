@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Об авторе</title>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="/">Лабораторная работа № 1</a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="/">Задание</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/posts">Посты</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/about">Об авторе</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="my-3 flex-grow-1">
+        <div class="container">
+            
+<h1 class="mt-5 text-center">Об авторе</h1>
+<div class="row">
+    <div class="col-md-4 mb-3">
+        <img class="avatar" src="/static/images/avatar.jpg" alt="Author">
+    </div>
+    <div class="col-md-8 text-justify d-flex align-items-center">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea nemo illo natus 
+            inventore. Distinctio eius consectetur similique molestias. Molestiae esse maiores 
+            enim velit quisquam, omnis libero quam ducimus ea tempore.
+
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, ab? 
+            Earum cum dolorum ipsum voluptatum quis voluptatibus ea veritatis assumenda aliquid 
+            dolores quas, distinctio laboriosam, omnis ratione est tempora nisi.
+        </p>
+    </div>
+</div>
+
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-3 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">Выполнила: Дудченко Алёна </p>
+            <p class="mb-0">Группа: 241-326 </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
