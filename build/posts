@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Посты</title>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="/">Лабораторная работа № 1</a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="/">Задание</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/posts">Посты</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/about">Об авторе</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="my-3 flex-grow-1">
+        <div class="container">
+            
+    <h1 class="my-5">Последние посты</h1>
+    <div class="row mb-3">
+        
+            <div class="col-md-6 d-flex">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="/static/images/afc2cfe7-5cac-4b80-9b9a-d5c65ef0c728.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Заголовок поста №4</h2>
+                        <p class="card-text">
+                            Gun situation nearly home. Blood serious involve fight key. Court result bed important beautiful...
+                        </p>
+                        <a href="/posts/0" class="btn btn-primary">Читать дальше &rarr;</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Опубликовано 07.02.2025.
+                        Автор: Emily Harris
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-6 d-flex">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="/static/images/cab5b7f2-774e-4884-a200-0c0180fa777f.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Заголовок поста №5</h2>
+                        <p class="card-text">
+                            Already situation forward image unit. Letter stock admit year manager. Easy somebody interview...
+                        </p>
+                        <a href="/posts/1" class="btn btn-primary">Читать дальше &rarr;</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Опубликовано 24.11.2024.
+                        Автор: Jeffrey Chase
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-6 d-flex">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="/static/images/6e12f3de-d5fd-4ebb-855b-8cbc485278b7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Заголовок поста №3</h2>
+                        <p class="card-text">
+                            You chance move consumer whom. Knowledge now lot nation share rock future. Image firm create...
+                        </p>
+                        <a href="/posts/2" class="btn btn-primary">Читать дальше &rarr;</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Опубликовано 15.11.2024.
+                        Автор: Mr. Timothy Griffin
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-6 d-flex">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="/static/images/2d2ab7df-cdbc-48a8-a936-35bba702def5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Заголовок поста №2</h2>
+                        <p class="card-text">
+                            Program as them huge tonight while day positive. Sometimes south catch ability character notice...
+                        </p>
+                        <a href="/posts/3" class="btn btn-primary">Читать дальше &rarr;</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Опубликовано 08.11.2024.
+                        Автор: Tina Douglas
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-6 d-flex">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="/static/images/7d4e9175-95ea-4c5f-8be5-92a6b708bb3c.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Заголовок поста №1</h2>
+                        <p class="card-text">
+                            Win country nearly. Against which continue news. Already TV today focus focus. People value...
+                        </p>
+                        <a href="/posts/4" class="btn btn-primary">Читать дальше &rarr;</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Опубликовано 24.03.2024.
+                        Автор: Andrew Morales
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-3 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">Выполнила: Дудченко Алёна </p>
+            <p class="mb-0">Группа: 241-326 </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
