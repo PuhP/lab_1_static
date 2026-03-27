@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% from "macros.html" import user_form %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Редактирование пользователя</h2>
+    <hr>
+    
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }}">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    {{ user_form(roles, user=user, is_edit=True) }}
+</div>
+{% endblock %}
